@@ -9,7 +9,7 @@ module.exports = function () {
             function (error, stdout, stderr) {
                 if (error !== null) {
                     console.log('rebuild failed with message: ' + error.message);
-                    reject();
+                    reject(error);
                 } else {
                     console.log('rebuild ok');
                     resolve();
@@ -17,4 +17,4 @@ module.exports = function () {
             }
         );
     });
-}
+};
