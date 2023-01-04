@@ -7,7 +7,8 @@
     "platforms": [
       "android",
       "ios",
-      "windows"
+      "windows",
+      "electron"
     ]
   },
   "repository": "github:apache/cordova-plugin-geolocation",
@@ -18,7 +19,8 @@
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
-    "cordova-windows"
+    "cordova-windows",
+    "cordova-electron"
   ],
   "scripts": {
     "test": "npm run lint",
