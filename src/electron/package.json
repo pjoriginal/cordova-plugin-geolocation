@@ -15,7 +15,7 @@
     "@nodert-win10-rs4/windows.devices.geolocation": "^0.4.4"
   },
   "devDependencies": {
-    "electron-rebuild": "^3.2.9"
+    "@electron/rebuild": "^3.2.10"
   },
   "scripts": {
     "rebuild": "npm i && electron-rebuild"
