@@ -12,7 +12,7 @@
     "author": "Apache Software Foundation",
     "license": "Apache-2.0",
     "dependencies": {
-        "@nodert-win10-rs4/windows.devices.geolocation": "^0.4.4"
+        "@nodert-win11-22h2/windows.devices.geolocation": "^0.1.6"
     },
     "devDependencies": {
         "electron-rebuild": "^3.2.9"
