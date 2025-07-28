@@ -1,7 +1,7 @@
 let geolocation = null;
 let locator = null;
 if (/^win/i.test(process.platform)) {
-    geolocation = require('@nodert-win10-rs4/windows.devices.geolocation');
+    geolocation = require('@nodert-win11-22h2/windows.devices.geolocation');
     locator = new geolocation.Geolocator();
 }
 
