@@ -1,0 +1,26 @@
+{
+    "name": "cordova-plugin-geolocation-electron",
+    "version": "1.0.0",
+    "description": "Electron Native Support for Cordova Geolocation Plugin",
+    "main": "index.js",
+    "keywords": [
+        "cordova",
+        "electron",
+        "sqlite",
+        "native"
+    ],
+    "author": "Apache Software Foundation",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@nodert-win11-22h2/windows.devices.geolocation": "^0.1.6"
+    },
+    "devDependencies": {
+        "electron-rebuild": "^3.2.9"
+    },
+    "scripts": {
+        "rebuild": "npm i && electron-rebuild"
+    },
+    "cordova": {
+        "serviceName": "Geolocation"
+    }
+}
